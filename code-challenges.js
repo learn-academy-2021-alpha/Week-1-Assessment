@@ -7,9 +7,9 @@
 // If you get stuck, please leave comments to help us understand your thought process
 
 // --------------------1) Create a function that determines if a temperature is below boiling point, at boiling point or above boiling point. Boiling point is 212 degrees Fahrenheit.
-// Use the test variables provided below. Expected outcome: "35 is below boiling point", "350 is above boiling point", "212 is at boiling point"
+// Use the test variables provided below. Expected outcome: "85 is below boiling point" "350 is above boiling point" "212 is at boiling point"
 
-var temp1 = 35
+var temp1 = 85
 var temp2 = 350
 var temp3 = 212
 
@@ -18,18 +18,20 @@ var temp3 = 212
 
 
 // --------------------2) Create a function that multiplies each number in the array by 5 using a for loop.
-// Use the test variable provided below. Expected outcome: [15, 35, 0, 30, -45]
+// Use the test variable provided below. Expected outcome: [15, 35, 0, 30, -45] [10, 25, -40, 100, 160]
 
-var myNumbers1 = [3, 7, 0, 6, -9]
+var myForNumbers1 = [3, 7, 0, 6, -9]
+var myForNumbers2 = [2, 5, -8, 20, 32]
 
 
 
 
 
 // --------------------3) Create a function that multiplies each number in the array by 5 using map.
-// Use the test variable provided below. Expected outcome: [40, -35, 0, 30, 10]
+// Use the test variable provided below. Expected outcome: [435, 30, 140, 80, 10] [40, -35, 0, 30, 60]
 
-var myNumbers2 = [8, -7, 0, 6, 2]
+var myMapNumbers1 = [87, 6, 28, 16, 2]
+var myMapNumbers2 = [8, -7, 0, 6, 12]
 
 
 
@@ -56,15 +58,18 @@ var refactorTester3 = "IAmACodingMaster"
 
 
 
+// --------------------6) Create a function that takes in an array of strings and returns the string with the most characters.
+// Expected output: "chopsticks" "stemware"
 
-// --------------------6) Create a function that takes the toonimals array and returns an array with only the toon objects that are cats.
-// Expected output: [ { name: "Stimpy", animal: "cat" }, { name: "Scratchy", animal: "cat" }, { name: "Felix", animal: "cat" } ]
-
-var toonimals = [ { name: "Itchy", animal: "mouse" }, { name: "Stimpy", animal: "cat" }, { name: "Daffy", animal: "duck" }, { name: "Scratchy", animal: "cat" }, { name: "Ren", animal: "dog" }, { name: "Felix", animal: "cat" }]
-
-
+var utensils = ["fork", "knife", "tongs", "chopsticks", "skewer"]
+var vessels = ["cup", "mug", "stemware", "glass", "tumbler", "tea cup"]
 
 
 
-// --------------------7) Using the toonimals variable from #6, create a function that returns only the names of the non-cats.
-// Expected output: "Itchy Daffy Ren"
+
+
+// --------------------7) Create a function that takes in an array of strings and returns an array with the last letter removed from each string.
+// Expected output: ["Luig", "Peac", "Toa", "Yosh"] ["Ink", "Blink", "Pink", "Clyd"]
+
+var mario = ["Luigi", "Peach", "Toad", "Yoshi"]
+var pacman = ["Inky", "Blinky", "Pinky", "Clyde"]

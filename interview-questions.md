@@ -45,7 +45,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 
 
-6. What is TDD? Describe the work flow associated with TDD.
+6. What is iteration?
 
   Your answer:
 
@@ -53,7 +53,15 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 
 
-7. What is something we did in class this week you found helpful?  
+7. What are advantages and disadvantages for using terminal commands to interact with your computer?
+
+  Your answer:
+
+  Researched answer:
+
+
+
+8. What is something we did in class this week you found helpful?  
 
   Your answer:
 
@@ -63,6 +71,8 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
+- Jest
+- Test Driven Development
 - Classes
 - React
 - React State
